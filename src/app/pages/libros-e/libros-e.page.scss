@@ -42,7 +42,7 @@
   }
 
 
-  .custom-label {
+  .color-label {
     color: #ffffff; 
     font-weight: bold;
     font-size: 1.2em;
@@ -71,7 +71,7 @@
     
   }
   
-
+  //mensaje de comentario
   .mensaje{
     border: 2px solid #ffffff;
     border-radius: 12px;
@@ -80,10 +80,11 @@
     text-align: center;
     padding: 14px;
   }
-
+ //flecha hacia abajo 
   .mensaje ion-icon {
     font-size: 24px; 
     color: #ffffff; 
     margin-left: 8px; 
   }
+  
   

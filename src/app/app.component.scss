@@ -5,12 +5,12 @@ ion-content {
   ion-toolbar {
     --background: #4CAF50;
     --color: white;
-    
+    box-shadow: 0 0 10px 2px white;
   }
 
   .custom-green-toolbar {
     --background: #4CAF50;
- 
+    
   }
 
   .separator {
@@ -31,5 +31,8 @@ ion-content {
     color: #D3D3D3; 
   }
   
+  .login-item{
+    box-shadow: 0 0 10px 2px rgb(19, 255, 19);
+  }
   
   

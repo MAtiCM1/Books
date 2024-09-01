@@ -1,15 +1,37 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>about</ion-title>
+
+    <ion-buttons slot="start">
+      <ion-back-button [routerLink]="['/home']"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title></ion-title>
+
   </ion-toolbar>
+
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">about</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" >
+  <ion-card class="custom-card">
+    <ion-card-header>
+      <ion-card-title class="card-title">Somos Coffe & Book's</ion-card-title>
+    </ion-card-header>
+
+    <div class="icon-container">
+      <ion-icon name="book" class="book-icon"></ion-icon>
+    </div>
+
+    <ion-card-content class="card-content">
+      Descubre una nueva forma de sumergirte en tus libros favoritos con nuestra innovadora aplicación de lectura.
+      <br>
+      Diseñada para los amantes de la lectura,
+      <br>
+      Coffe & Book's te ofrece una experiencia fluida y personalizada, permitiéndote acceder a una biblioteca de títulos en un solo lugar.
+      Con características como un resúmen del propio libro, disfrutar de tus lecturas nunca ha sido tan fácil.
+      <br>
+      ¡Únete a nuestra comunidad de lectores y transforma la manera en que disfrutas de los libros!
+    </ion-card-content>
+  </ion-card>
 </ion-content>
 
 

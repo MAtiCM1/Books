@@ -1,0 +1,39 @@
+<ion-header [translucent]="true">
+
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+
+      <ion-menu-button></ion-menu-button>
+
+    </ion-buttons>
+    <!--en tittle colocar el icono de la empresa-->
+    <ion-title></ion-title>
+
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+  <div>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title color="success" class="flex-center">Login</ion-card-title>
+      </ion-card-header>
+      <div class="centered-image-container">
+        <img src="../assets/icon/coffeblogo.jpg" alt="CoFFE Book's Logo">
+      </div>
+      <br>
+      <ion-card-content>
+        <ion-input [(ngModel)]="username" label="Usuario" label-placement="floating" fill="outline" placeholder="Nombre de Usuario"></ion-input>
+        <br>
+        <ion-input [(ngModel)]="password" label="Contraseña" label-placement="floating" fill="outline" placeholder="Ingresar Contraseña" type="password"></ion-input>
+        <br>
+        <ion-button color="light" size="full" fill="clear">Olvide mi Usuario/Contraseña</ion-button>
+        <br>
+        <ion-button shape="round" color="secondary" size="full" (click)="login()">LogIN</ion-button>
+        <ion-button color="secondary" size="full" fill="clear" [routerLink]="['/register']">Registrarse</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

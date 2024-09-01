@@ -1,0 +1,24 @@
+
+.centered-image-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .centered-image-container img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #000; /* Borde negro */
+  }
+
+  .centered-button {
+    margin-top: 20px; /* Ajusta según sea necesario */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    --padding-start: 0;
+    --padding-end: 0;
+  }
+
+  

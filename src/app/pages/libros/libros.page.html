@@ -1,0 +1,53 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+
+      <ion-menu-button></ion-menu-button>
+
+    </ion-buttons>
+    <ion-title>libros</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <section class="section-header custom-background">
+    <ion-list-header>
+      <ion-label class="custom-label">CAMBIAR INTERFAZ DE BIBLIOTECA</ion-label>
+    </ion-list-header>
+    <div class="separator"></div>
+
+    <div class="chips-container">
+      <ion-chip color="tertiary" class="custom-chip" >SIMPLE</ion-chip>
+      <ion-chip color="tertiary" class="custom-chip" [routerLink]="['/libros-e']">ELABORADO</ion-chip>
+    </div>
+    
+  </section>
+
+  <br>
+  <div class="centrador">
+    <ion-list class="bordered-list">
+     
+      <ion-item class="separator">
+        Guerra de los mundos
+        <ion-icon name="book-outline" slot="end"></ion-icon>
+      </ion-item>
+      
+      <ion-item class="separator"><!--opciones inabilitadas-->
+        El Principito
+        <ion-icon name="book-outline" slot="end"></ion-icon>
+      </ion-item>
+      
+      <ion-item class="separator"><!--opciones inabilitadas-->
+        El niño pijama de rayas
+        <ion-icon name="book-outline" slot="end"></ion-icon>
+      </ion-item>
+      
+      <ion-item class="separator"> <!--opciones inabilitadas-->
+        MAS...
+        <ion-icon name="book-outline" slot="end"></ion-icon>
+      </ion-item>
+      
+    </ion-list>
+  </div>
+</ion-content>

@@ -1,0 +1,103 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+
+      <ion-menu-button></ion-menu-button>
+
+    </ion-buttons>
+    <ion-title>libros</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+
+  <section class="section-header custom-background">
+    <ion-list-header>
+      <ion-label class="custom-label">CAMBIAR INTERFAZ DE BIBLIOTECA</ion-label>
+    </ion-list-header>
+    
+    <div class="separator"></div>
+
+    <div class="chips-container">
+      <ion-chip  class="custom-chip" [routerLink]="['/libros']">SIMPLE</ion-chip>
+      <ion-chip  class="custom-chip">ELABORADO</ion-chip>
+    </div>
+    
+    
+  </section>
+
+    <div class="centered-image-container">
+    <img src="../assets/icon/coffeblogo.jpg" alt="CoFFE Book's Logo">
+    </div>
+  <!--primer card1--> <!--opciones inabilitadas-->
+  <div class="card-container">
+    <ion-card class="flex-card card-border">
+      <ion-card-header>
+
+        <img 
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/War-of-the-worlds-tripod.jpg/300px-War-of-the-worlds-tripod.jpg"
+          alt="imagen" />
+      </ion-card-header>
+      <ion-card-content class="content-card">
+        Guerra de los Mundos
+      </ion-card-content>
+    </ion-card>
+
+    <!--segundo card2--> <!--opciones inabilitadas-->
+    <ion-card class="flex-card card-border">
+      <ion-card-header>
+
+        <img 
+          src="https://imagessl3.casadellibro.com/a/l/t0/43/9789562623643.jpg"
+          alt="imagen" />
+          
+      </ion-card-header>
+      <ion-card-content class="content-card">
+        Papelucho y el marciano
+      </ion-card-content>
+    </ion-card>
+    
+  </div>
+
+  <div class="card-container">
+    <!--tercer card3--> <!--opciones inabilitadas-->
+    <ion-card class="flex-card card-border">
+      <ion-card-header>
+
+        <img 
+          src="https://images.cdn2.buscalibre.com/fit-in/360x360/01/e0/01e04c600c7b7bfaf5a14c17a640e5af.jpg"
+          alt="imagen" />
+          
+      </ion-card-header>
+      <ion-card-content class="content-card">
+        La divina Comedia
+      </ion-card-content>
+    </ion-card>
+
+    <!--cuarto card4--> <!--opciones inabilitadas-->
+    <ion-card class="flex-card card-border">
+      <ion-card-header>
+
+        <img 
+          src="https://www.aceprensa.com/wp-content/uploads/2008/09/14574-0.jpg"
+          alt="imagen" />
+          
+      </ion-card-header>
+      <ion-card-content class="content-card">
+        El niño con el pijama de rayas
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <div class="mensaje">
+    Si quieres mas lecturas dejanos tu comentario 
+    <div>
+      <ion-icon name="arrow-down-circle-outline"></ion-icon>
+    </div>
+    <ion-input label="Deja tu comentario" label-placement="floating" fill="outline" placeholder="Escribe tu comentario"></ion-input>
+  </div>
+
+
+  
+</ion-content>

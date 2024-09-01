@@ -1,0 +1,47 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Coffee & Book's
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <section class="section-header custom-background">
+
+    <ion-list-header>
+      <ion-label class="custom-label">Destacados</ion-label>
+    </ion-list-header>
+
+    <div class="separator"></div>
+
+    <div class="chips-container"> <!--opciones inabilitadas , se requieren API--> 
+      <ion-chip color="tertiary" class="custom-chip">Aventura</ion-chip> <!--opciones inabilitadas-->
+      <ion-chip color="tertiary" class="custom-chip">Ciencia Ficción</ion-chip> <!--opciones inabilitadas-->
+      <ion-chip color="tertiary" class="custom-chip">Clásicos</ion-chip> <!--opciones inabilitadas-->
+    </div> 
+
+  </section>
+
+  <div class="centered-image-container">
+    <img src="../assets/icon/coffeblogo.jpg" alt="CoFFE Book's Logo">
+  </div>
+
+  <ion-card class="custom-card">
+    <ion-card-content>
+      <ion-card-title class="flex-center">🍵¡BIEVENIDO!🍵</ion-card-title>
+      <div class="image-container">
+        <img src="https://th.bing.com/th/id/OIP.FG10IS2HFrnyZ5dBENfBhgHaFj?w=262&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7"
+          alt="imagen" />
+
+        <div class="overlay-text" [routerLink]="['/about']">¡WELCOME TO COFFE & BOOK's.!
+          <div>Presiona ¡Aquí!</div>
+          <div>para saber más sobre nosotros</div>
+        </div>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

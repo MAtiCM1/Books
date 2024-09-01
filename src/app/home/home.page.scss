@@ -1,0 +1,116 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  position: relative;
+
+}
+.section-header {
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chips-container {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+
+.custom-card {
+  margin: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid #ffffff;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.image-container img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.flex-center {
+  text-align: center;
+}
+
+.custom-background {
+  background-color: rgba(0, 0, 0, 0.7); 
+}
+
+
+.custom-chip {
+  color: #ffffff; 
+}
+
+.custom-label {
+  color: #ffffff; 
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  display: block; 
+}
+
+.separator {
+  border-bottom: 2px solid #ffffff;
+  margin: 8px 0; 
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff; 
+  background-color: rgba(0, 0, 0, 0.6); //hace que el fonde sea semitransparente
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.centered-image-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.centered-image-container img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 2px solid #000; /* Borde negro */
+}

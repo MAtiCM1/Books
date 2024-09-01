@@ -1,0 +1,89 @@
+
+ //ajusta los card en especifico los espacios entre ellos
+.card-container {
+    display: flex;
+    gap: 16px; 
+  }
+  //todos los cards ocupan el mismo espacio
+  .flex-card {
+    flex: 1; 
+  }
+  //borde de los card
+  .card-border {
+    border: 2px solid white;
+    border-radius: 8px; 
+  }
+
+  .content-card{
+    text-align: center;
+    color: #ffffff;
+  }
+
+  //cambia el color de la letra del boton
+  .custom-chip {
+    color: #ffffff; 
+  }
+  //cambia el div
+  .chips-container {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    justify-content: center;
+  }
+  //color de barra
+  .custom-background {
+    background-color: rgba(0, 0, 0, 0.7); 
+  }
+
+  //esto es la agrupacion del section y hace que la barra de color morada fuerte haya 
+  .section-header {
+    padding: 16px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.774);
+  }
+
+
+  .custom-label {
+    color: #ffffff; 
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    display: block; 
+  }
+
+  //separador(linea)
+  .separator {
+    border-bottom: 2px solid #ffffff;
+    margin: 8px 0; 
+  }
+  
+  //centrador del logo
+  .centered-image-container {
+    text-align: center;
+    margin-top: 10px;
+  
+  }
+  //contorno del logo
+  .centered-image-container img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    
+  }
+  
+
+  .mensaje{
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    margin: 12px;
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+    padding: 14px;
+  }
+
+  .mensaje ion-icon {
+    font-size: 24px; 
+    color: #ffffff; 
+    margin-left: 8px; 
+  }
+  

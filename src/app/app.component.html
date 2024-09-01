@@ -1,0 +1,60 @@
+<ion-app>
+  <ion-menu-toggle>
+    <ion-menu contentId="main-content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title class="custom-green-toolbar">CoFFE Book's</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        
+        <br>
+        <ion-list>
+
+          <ion-item [routerLink]="['/home']">
+            <ion-icon name="home-outline" slot="start"></ion-icon>
+            Inicio
+          </ion-item>
+          <div class="separator"></div>
+
+          <ion-item [routerLink]="['/libros']">
+            <ion-icon name="book-outline" slot="start"></ion-icon>
+            Libros
+          </ion-item>
+          <div class="separator"></div>
+
+          <ion-item [routerLink]="['/favoritos']">
+            <ion-icon name="star-outline" slot="start"></ion-icon>
+            Favoritos
+          </ion-item>
+
+          <div class="separator"></div>
+
+          <ion-item [routerLink]="['/admin']">
+            <ion-icon name="shield-outline" slot="start"></ion-icon>
+            Admin
+          </ion-item>
+
+          <div class="separator"></div>
+
+          <ion-item [routerLink]="['/carrito']">
+            <ion-icon name="cart-outline" slot="start"></ion-icon>
+            Carrito
+          </ion-item>
+
+        </ion-list>
+
+      </ion-content>
+
+      <ion-item [routerLink]="['/log-in']" class="login-item custom-green-item">
+        <ion-icon name="log-in-outline" slot="start"></ion-icon>
+        LogIn
+      </ion-item>
+      
+    </ion-menu>
+  </ion-menu-toggle>
+
+  <ion-router-outlet id="main-content"></ion-router-outlet>
+  
+</ion-app>
+

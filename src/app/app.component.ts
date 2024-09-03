@@ -20,5 +20,6 @@ export class AppComponent {
     this.router.navigate(['/libros']);
     this.router.navigate(['/admin']);
     this.router.navigate(['/libros-e']);
+    this.router.navigate(['/admin-login']);
   }
 }

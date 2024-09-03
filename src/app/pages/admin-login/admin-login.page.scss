@@ -1,0 +1,16 @@
+ion-button[color ="light"]{
+    text-transform: initial;
+}
+
+.centered-image-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .centered-image-container img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #000; 
+  }
+  
